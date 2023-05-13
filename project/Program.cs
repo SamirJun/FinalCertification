@@ -1,4 +1,4 @@
-﻿void SecondArrayWithIF(string[] arrayfirst, string[] arraysecond)
+﻿void Proverka(string[] arrayfirst, string[] arraysecond)
 {
     int count = 0;
     for (int i = 0; i < arrayfirst.Length; i++)
@@ -24,5 +24,5 @@ void PrintArray(string[] array)
 string[] arrayfirst = new string[5] {"123", "23", "hello", "world", "res"};
 string[] arraysecond = new string[arrayfirst.Length];
 PrintArray(arrayfirst);
-SecondArrayWithIF(arrayfirst, arraysecond);
+Proverka(arrayfirst, arraysecond);
 PrintArray(arraysecond);
